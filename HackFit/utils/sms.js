@@ -12,7 +12,7 @@ try {
     //     to: "+919747859313" // Recipient's phone number
     // });
 
-    res.status(200).json({message:"sms send to your mobile number"});
+    // res.status(200).json({message:"sms send to your mobile number"});
     console.log("message send to phone number");
 } catch (error) {
     console.log(error);

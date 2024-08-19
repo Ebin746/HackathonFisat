@@ -90,9 +90,15 @@ reportForm.addEventListener("submit", async (event) => {
   const description = reportForm.querySelector(
     'textarea[name="description"]'
   ).value;
-const user= localStorage.getItem('user');  // Retrieve userId from local storage
-console.log(user);
-  if (!user) {
+  const userId = localStorage.getItem('userId');
+  const userName = localStorage.getItem('userName');
+  const userPhoneNumber = localStorage.getItem('userPhoneNumber');
+  
+  // Display user data
+  console.log("User ID:", userId);
+  console.log("User Name:", userName);
+  console.log("User Phone Number:", userPhoneNumber);
+  if (!userId) {
     alert("User is not logged in.");
     return;
   }
@@ -105,7 +111,7 @@ console.log(user);
       description: {
         user:user.id ,
         about:description,
-        userName:user.name
+        userName:userName
       }
     };
 

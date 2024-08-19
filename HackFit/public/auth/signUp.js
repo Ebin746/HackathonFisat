@@ -26,7 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log(data);
 
                 // Store the user data in local storage
-                localStorage.setItem('user', JSON.stringify(data.user));
+                localStorage.setItem('userId', data.user.id);
+    localStorage.setItem('userName', data.user.name);
+    localStorage.setItem('userPhoneNumber', data.user.phoneNumber);
 
                 // Show welcome message and hide signup form
                 signupContainer.style.display = 'none';
