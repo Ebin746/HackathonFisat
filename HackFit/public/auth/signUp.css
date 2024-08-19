@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    width: 35vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  .box{
+    position:fixed;
+    top:0px;
+    right:0px;
+    width: 25%;
+    height: 25%;
+  
+    border: 2px solid black;
+  }
+  .mapbox{
+    border:2px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    right:0;
+  }
+  .location-button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 7.5%;
+    margin-right:15%
+  }

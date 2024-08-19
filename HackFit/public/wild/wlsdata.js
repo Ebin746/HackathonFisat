@@ -1,0 +1,37 @@
+//Array of sanctuaries with their coordinates and radius
+const sanctuaryData = [
+    { name: "Megamalai WLS", lat: 9.7167, lng: 77.3833, radius: 15 },
+    { name: "Indira Gandhi WLS", lat: 10.3926, lng: 76.9604, radius: 20 },
+    { name: "Wayanad WLS", lat: 11.6019, lng: 76.2746, radius: 25 },
+    { name: "Idukki Wildlife Sanctuary", lat: 9.85, lng: 76.9667, radius: 20 },
+    { name: "Neyyar WLS", lat: 8.4916, lng: 77.1924, radius: 10 },
+    { name: "Anamalai Tiger Reserve", lat: 10.35, lng: 77.2333, radius: 30 },
+    { name: "Kurinjimala WLS", lat: 10.1167, lng: 77.1667, radius: 15 },
+    { name: "Chinnar WLS", lat: 10.2533, lng: 77.185, radius: 15 },
+    {
+      name: "Parambikulam WLS/Tiger Reserve",
+      lat: 10.4743,
+      lng: 76.7788,
+      radius: 20,
+    },
+    { name: "Shendurney WLS", lat: 8.8, lng: 77.1833, radius: 10 },
+    { name: "Nellai WLS", lat: 8.7333, lng: 77.5333, radius: 15 },
+    { name: "Peppara WLS", lat: 8.6458, lng: 77.1186, radius: 15 },
+    { name: "Periyar WLS Tiger Reserve", lat: 9.45, lng: 77.1667, radius: 25 },
+    { name: "Mangalavanam", lat: 9.989, lng: 76.2755, radius: 5 },
+    { name: "Brahmagiri WLS", lat: 11.9781, lng: 75.9667, radius: 20 },
+    {
+      name: "Srivilliputhur Grizzled Squirrel WLS",
+      lat: 9.5167,
+      lng: 77.6333,
+      radius: 15,
+    },
+    { name: "Aralam WLS", lat: 11.95, lng: 75.8, radius: 10 },
+    { name: "Kottiyoor WLS", lat: 11.9416, lng: 75.8177, radius: 10 },
+    { name: "Peechi-Vazhani WLS", lat: 10.5833, lng: 76.4, radius: 10 },
+    { name: "Chimmony WLS", lat: 10.4, lng: 76.4833, radius: 10 },
+    { name: "Thattekad Bird Sanctuary", lat: 10.1, lng: 76.6833, radius: 10 },
+    { name: "Chulannur Peafowl WLS", lat: 10.7667, lng: 76.3333, radius: 5 },
+    { name: "Malabar WLS", lat: 11.6521, lng: 75.733, radius: 20 },
+    { name: "Dummy Data", lat: -13.2548, lng: 135.3744, radius: 30 }, // example dummy data
+  ];

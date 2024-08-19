@@ -1,0 +1,75 @@
+#map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .reportBox {
+   
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    align-self: flex-start;
+  }
+  
+  .reportForm .box {
+    margin-bottom: 15px;
+  }
+  
+  .reportForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .reportForm select, .reportForm textarea, .reportForm input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .reportForm textarea {
+    resize: vertical;
+  }
+  
+  .reportForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reportForm button:hover {
+    background-color: #45a049;
+  }
+  .footer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .map-info{
+    
+  
+    border: 2px solid black;
+  
+  
+  }
+  .footer{
+    height: 20vh;
+   
+  }
+  .footer a{
+    padding: 5px;
+    color: white;
+    background-color: #4CAF50;
+  
+    border-radius: 10px;
+     text-decoration: none;
+  }
